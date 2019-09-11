@@ -1,0 +1,39 @@
+.navName{
+  font-size: 1.8em;
+  color: white;
+}
+
+.nav-item p{
+  font-size: 1em;
+  color: white;
+}
+
+a{
+  font-size: 1em;
+  text-decoration: none;
+  color: #00ACE6;
+  color: white;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #0353A4;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+.nav-item .nav-link{
+  text-decoration: none;
+  color: white;
+  
+}
+
+.router-link-nav {
+  color: white;
+}
+
+.router-link-nav:hover {
+  color: white;
+}

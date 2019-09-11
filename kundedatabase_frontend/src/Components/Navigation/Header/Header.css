@@ -1,0 +1,20 @@
+.mainHeader {
+    background-color: #002540;
+}
+
+.navbar-brand .btn-vector:hover{
+    transform: scale(1.2);
+}
+
+
+.navbar .menu p {
+    color:white;
+}
+
+.breadcrumb {
+    background-color: #002540;
+}
+
+.hamburger {
+    cursor: pointer;
+}

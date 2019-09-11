@@ -1,0 +1,88 @@
+.btn-collapse {
+}
+
+.btn-collapse .btn-descr {
+    margin-left:1em;
+    float: right;
+    padding-top: 0.2em;
+    color: white;
+}
+
+
+.btn-img-collapse {
+}
+
+.btn-navbar {
+
+}
+
+.btn-navbar .btn-vector-img {
+}
+
+.btn-descr:not(.btn-collapse .btn.descr) {
+    display: none;
+}
+
+.btn-vector  {
+    background-color: transparent;
+    border: transparent;
+    transition: transform .2s;
+    outline: none;    
+}
+
+.btn-vector-img {
+    height: 2em;
+}
+
+.btn-vector:hover{
+    transform: scale(1.2);
+}
+
+.btn-vector:focus {
+    outline: none;
+}
+
+.btn-kebab:focus {
+    transform: scale(1.5);
+}
+
+.btn-kebab:focus .btn-img-kebab {
+    opacity: 1;
+}
+
+.btn-vector:active {
+    transform: scale(1.5);
+}
+
+.btn-navbar .btn-vector-descr {
+    color: white;
+}
+
+.btn-navbar .btn-vector-descr {
+    font-size: 1em;
+}
+
+.btn-img-card {
+    height: 2em;
+}
+
+.btn-kebab {
+    height: 2.5em;
+}
+
+.btn-img-kebab {
+    height: 2em;
+    opacity: 0.2;
+}
+
+.btn-kebab:hover .btn-img-kebab {
+    opacity: 1;
+}
+
+#search {
+
+}
+
+.tooltiptest{
+    opacity: 0.5;
+}

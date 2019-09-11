@@ -1,0 +1,9 @@
+.file_viewer {
+    max-width:100%;
+    padding-bottom:10em;
+}
+
+.file_viewer img {
+    max-width:100%;
+    height:auto;
+}

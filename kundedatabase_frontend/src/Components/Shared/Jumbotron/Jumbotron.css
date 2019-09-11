@@ -1,0 +1,24 @@
+.jumbotron {
+    background-color: white;
+    color: #fff;
+}
+
+.jumbotron {
+    background-size: cover;
+    background-position: center;
+}
+
+.Jumbotron-Home {
+    background-image: linear-gradient(to bottom, #002540 0%, #002540 0%, transparent), url('../../../Assets/Img/norway.jpg');
+}
+
+.Jumbotron-Home h2 {
+    color: white;
+}
+
+.Jumbotron-Client {
+    background-image: linear-gradient(to bottom, #002540 0%, #002540 0%, transparent), url('../../../Assets/Jumbotron/placeholder-jumbotron-clients.png');
+}
+
+.jumbotron {
+}

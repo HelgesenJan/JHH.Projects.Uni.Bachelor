@@ -1,0 +1,222 @@
+/* 
+--- COLORS --
+ 
+1. PRIMARY
+Medium Electric Blue (dark blue)
+#0353A4
+#03468A (hover)   
+- Primary GUI-buttons 
+
+
+2. SECONDARY
+Standard Bootstrap styling
+
+3. INFO
+Pale Aqua (light blue)
+#B08B5B
+#96774E (hover)
+- Jumbotron, cards
+
+4. LINK
+Deer (brown)
+#B08B5B
+#9677AE (hover)
+- Jumbotron (alt), help
+*/
+
+@font-face {
+    font-family: 'Metropolis Extra Bold';
+    src: url('./Fonts/Headlines/Metropolis-ExtraBold.otf');
+}
+
+@font-face {
+    font-family: 'Metropolis Bold';
+    src: url('./Fonts/Headlines/Metropolis-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Varela Round';
+    src: url('./Fonts/Body-Paragraphs/VarelaRound-Regular.ttf');
+}
+
+/* xs */
+
+@media only screen and (max-width: 767px) {
+
+    #accesslogTable, #accesslogThead, #accesslogTbody, #accesslogTr, .accesslogTd{
+        display:block;
+    }
+
+    #accesslogThead{
+       display: none;
+     
+    }
+
+    #accesslogTr { 
+        border: 1px solid #ccc; 
+        margin-bottom: 10px;
+    }
+
+    .accesslogTd{
+        border: none;
+		border-bottom: 1px solid #eee; 
+        position: relative;
+        text-align: right;
+        font-size: 13px;
+    }
+
+    .accesslogTd:before { 
+		position: absolute;
+        left: 0;
+        margin-left: 10px;
+        white-space: nowrap;
+	}
+
+    
+    .accesslogTd:nth-of-type(1):before { 
+        content: "Kunde";
+    
+     }
+    .accesslogTd:nth-of-type(2):before { 
+        content: "Besøkt";
+      
+     }
+    .accesslogTd:nth-of-type(3):before { 
+        content: "Navn";
+    
+     }
+    .accesslogTd:nth-of-type(4):before { 
+        content: "IP";
+     
+     }
+    .accesslogTd:nth-of-type(5):before { 
+        content: "Sist besøkt";
+ 
+     }
+
+     .nav-item .lastElement{
+        border-bottom: 1px solid;
+        border-color: #9B9B9B;
+      }
+
+      .nav-item .nav-link{
+        padding-top: 1em;
+        padding-bottom: 1em;
+        
+        border-top: 1px solid;
+        border-color: #9B9B9B;
+      }
+
+      .btn-vector-brand .btn-brand-img{
+        height: 1em;
+    }
+
+    .btn-tooltip {
+        display: none;
+    }
+
+}
+
+/* sm */
+
+@media only screen and (min-width: 577px) {
+   
+}
+
+/* md */
+
+@media only screen and (min-width: 768px) {
+    .btn-vector-brand .btn-brand-img {
+        height: 2em;
+    }
+
+    .btn-collapse .btn-descr {
+        display: none;
+    }
+
+    .btn-navbar .btn-descr{
+        display: none;
+    }
+}
+
+
+
+/* lg */
+
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* xl */
+
+@media only screen and (min-width: 1200px) {
+    .btn-collapse .btn-descr {
+        display: block;
+    }
+
+    .btn-navbar .btn-descr {
+        display: block;
+    }
+
+    .page-nav {
+        background-color: #e9ecef;
+    }
+}
+
+body {
+
+  
+}
+
+.container {
+    margin-bottom: 3em;
+    
+}
+
+h1 {
+    font-family: 'Metropolis Extra Bold', Arial, Helvetica, sans-serif;
+}
+
+h2, h3, h4 {
+    color:black;
+    font-family: 'Metropolis Bold', Arial, Helvetica, sans-serif;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0.8em;
+    background-color: #e9ebee;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #9B9B9B;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2A2A2A;
+}
+
+body {
+    color: #2A2A2A;
+    height: 100%;
+}
+
+Input {
+    font-size: 2rem;
+    border-radius: 1px;
+}
+
+button {}
+
+button:hover {}
+
+button:disabled {
+    opacity: 0.5;
+}
+
+.date {
+    opacity: 0.6;
+}
